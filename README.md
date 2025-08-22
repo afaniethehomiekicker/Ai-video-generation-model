@@ -20,15 +20,7 @@ A simple, responsive website showcasing a curated list of AI video generation mo
 7. Kling (Kuaishou)
 8. CogVideo (Zhipu AI)
 
-## Deployment
 
-To deploy this website:
-
-1. Create a new repository on GitHub
-2. Upload all files (`index.html`, `index.js`, and this `README.md`) to the repository
-3. Go to Repository Settings → Pages
-4. Select "Deploy from a branch" and choose the main branch
-5. Your website will be available at `https://[username].github.io/[repository-name]`
 
 ## Customization
 
