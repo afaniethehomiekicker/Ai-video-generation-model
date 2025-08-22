@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Video Generation Models Directory</title>
+
+  <!-- Favicon Generator -->
+  <script>
+    const canvas = document.createElement('canvas');
+    canvas.width = 64;
+    canvas.height = 64;
+    const ctx = canvas.getContext('2d');
+
+    // Background
+    ctx.fillStyle = "#ffdd57";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // Emoji (🎥 as example for video)
+    ctx.font = "50px sans-serif";
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    ctx.fillText("🎥", canvas.width / 2, canvas.height / 2);
+
+    // Append favicon
+    const link = document.createElement('link');
+    link.rel = 'icon';
+    link.href = canvas.toDataURL("image/png");
+    document.head.appendChild(link);
+  </script>
+
+  <!-- Basic CSS for styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #666;
+      font-size: 1.2em;
+      margin-top: 0;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .models-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+
+    .model-card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .model-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .model-name {
+      font-size: 1.5em;
+      margin-top: 0;
+      color: #333;
+    }
+
+    .model-description {
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .model-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .model-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .models-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Video Generation Models Directory</h1>
+    <p class="subtitle">A curated list of the best AI video generation models</p>
+  </header>
+
+  <section class="intro">
+    <p>Discover the most innovative AI video generation models available today. These tools are pushing the boundaries of what's possible with artificial intelligence in video creation.</p>
+  </section>
+
+  <section class="models">
+    <div class="models-grid">
+      <!-- Model 1 -->
+      <div class="model-card">
+        <h3 class="model-name">Runway ML</h3>
+        <p class="model-description">A creative suite of AI-powered tools for video editing and generation. Perfect for artists and creators looking to enhance their video content.</p>
+        <a href="https://runwayml.com" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 2 -->
+      <div class="model-card">
+        <h3 class="model-name">Pika Labs</h3>
+        <p class="model-description">Known for creating short video clips from text prompts. Great for social media content creators.</p>
+        <a href="https://pika.art" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 3 -->
+      <div class="model-card">
+        <h3 class="model-name">Sora</h3>
+        <p class="model-description">OpenAI's text-to-video model that can generate realistic videos from textual descriptions.</p>
+        <a href="https://openai.com/sora" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 4 -->
+      <div class="model-card">
+        <h3 class="model-name">Stable Video Diffusion</h3>
+        <p class="model-description">From Stability AI, this model generates videos from images. Excellent for creating motion from stills.</p>
+        <a href="https://stability.ai" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 5 -->
+      <div class="model-card">
+        <h3 class="model-name">VideoPoet</h3>
+        <p class="model-description">Google's video generation model that can create and edit videos using a language model approach.</p>
+        <a href="https://ai.google/discover/videopoet" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 6 -->
+      <div class="model-card">
+        <h3 class="model-name">Lumalabs</h3>
+        <p class="model-description">Specializes in 3D and video generation, particularly for creating realistic human avatars and scenes.</p>
+        <a href="https://lumalabs.ai" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 7 -->
+      <div class="model-card">
+        <h3 class="model-name">Kling</h3>
+        <p class="model-description">By Kuaishou, this model excels at various video generation tasks including text-to-video and image-to-video.</p>
+        <a href="https://kling.kuaishou.com" class="model-link" target="_blank">Visit Website</a>
+      </div>
+
+      <!-- Model 8 -->
+      <div class="model-card">
+        <h3 class="model-name">CogVideo</h3>
+        <p class="model-description">From Zhipu AI, this model is particularly good for generating videos from Chinese language prompts.</p>
+        <a href="https://www.zhipuai.cn" class="model-link" target="_blank">Visit Website</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AI Video Generation Models Directory. This is a curated list of AI video generation tools.</p>
+  </footer>
+
+  <!-- JS file with cache buster -->
+  <script>
+    const script = document.createElement('script');
+    script.src = 'index.js?v=' + new Date().getTime();
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
